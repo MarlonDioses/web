@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+header {
+    
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    display: flex;
+    padding: 10px;
+    background-color: gray
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover {
+    color: yellow;
+}
+
+@media (max-width: 680px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px;
+    }
+    
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
